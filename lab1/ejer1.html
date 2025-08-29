@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de Contacto</title>
+</head>
+<body>
+<h2>Formulario de Contacto</h2>
+
+<form action="ps.php" method="post">
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name" required minlength="3" maxlength="33"
+             placeholder="Tu nombre"
+             oninvalid="this.setCustomValidity('de 3 a 33')"
+             oninput="this.setCustomValidity('')">
+    </li>
+    <li>
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="user_mail" required
+             placeholder="ejemplo@correo.com"
+             oninvalid="this.setCustomValidity('invalido')"
+             oninput="this.setCustomValidity('')">
+    </li>
+    <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="msg" name="user_message" required minlength="3" maxlength="333"
+                placeholder="Escribe tu mensaje aquí"
+                oninvalid="this.setCustomValidity('maximo 333, min 3')"
+                oninput="this.setCustomValidity('')"></textarea>
+    </li>
+  </ul>
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+<p><em>Porbando el em genaross</em></p>
+
+<p>
+  Visita mi sitio web favorito: 
+  <a href="https://www.mozilla.org/" title="FireGOAT" target="_blank">
+    Mozilla
+  </a>
+</p>
+
+
+</body>
+</html>
