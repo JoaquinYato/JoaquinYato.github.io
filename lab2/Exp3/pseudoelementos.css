@@ -1,0 +1,40 @@
+/* Primera letra */
+p::first-letter {
+  font-size: 2rem;
+  color: red;
+}
+
+/*Primera línea */
+p::first-line {
+  text-transform: uppercase;
+}
+
+/*Marcador de lista */
+li::marker {
+  color: blue;
+  font-size: 20px;
+}
+
+/*Placeholder de los inputs */
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+/*Antes de un h2 */
+h2::before {
+  content: "👉 ";
+  color: green;
+}
+
+/*Después de un h2 */
+h2::after {
+  content: " 🔹";
+  color: blue;
+}
+
+/*Selección de texto */
+::selection {
+  background: black;
+  color: white;
+}

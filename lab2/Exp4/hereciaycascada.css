@@ -1,0 +1,84 @@
+/* ============================= */
+/*   HERENCIA (7 ejemplos)       */
+/* ============================= */
+
+/* 1. Fuente y color heredados en toda la página */
+body {
+  font-family: Arial, sans-serif;
+  color: darkslategray;
+}
+
+/* 2. Header hereda la tipografía y el color */
+header {
+  background: #e6f7ff;
+  padding: 10px;
+}
+
+/* 3. Footer hereda la fuente y color, pero le añadimos fondo */
+footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+/* 4. Párrafos heredan del body pero se ajusta el tamaño */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 5. Labels dentro del formulario heredan la fuente del body */
+form {
+  font-family: inherit; /* usa la fuente de body */
+  color: navy;
+}
+
+/* 6. Los enlaces dentro de div heredan color del contenedor */
+div {
+  color: teal;
+}
+
+/* 7. Los h2 heredan tipografía y color del padre */
+h2 {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* ============================= */
+/*   CASCADA (5 ejemplos)        */
+/* ============================= */
+
+/* 1. Cascada simple: último gana */
+h1 {
+  color: blue;
+}
+h1 {
+  color: red; /* este gana */
+}
+
+/* 2. Cascada por especificidad */
+p {
+  color: green;
+}
+p.info {
+  color: orange; /* más específico => gana */
+}
+
+/* 3. Cascada en enlaces */
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+/* 4. Especificidad: id gana sobre tag */
+div {
+  background: white;
+}
+#formulario {
+  background: #f0f0f0; /* gana por ser id */
+}
+
+/* 5. Uso de !important => máxima prioridad */
+footer p {
+  color: gray !important;
+}
