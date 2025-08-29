@@ -1,0 +1,52 @@
+/*Enlaces al pasar el mouse */
+a:hover {
+  color: red;
+}
+
+/*Enlaces ya visitados */
+a:visited {
+  color: purple;
+}
+
+/*Primer párrafo dentro del div */
+div p:first-child {
+  font-style: italic;
+}
+
+/*Último párrafo dentro del div */
+div p:last-child {
+  color: darkblue;
+}
+
+/*Input cuando está enfocado */
+input:focus {
+  border: 2px solid orange;
+  outline: none;
+}
+
+/*Input válido */
+input:valid {
+  background-color: #d4fcd4;
+}
+
+/*Input inválido */
+input:invalid {
+  background-color: #fcd4d4;
+}
+
+/*Botón al estar activo */
+input[type="submit"]:active {
+  background-color: navy;
+  color: white;
+}
+
+/*Selección de texto */
+::selection {
+  background: yellow;
+  color: black;
+}
+
+/*Primer hijo de sección */
+div:first-of-type {
+  border: 2px dashed gray;
+}

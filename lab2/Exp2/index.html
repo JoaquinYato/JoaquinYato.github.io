@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia 2 - Uso de selectores</title>
+
+    <link rel="stylesheet" href="clase.css">
+    <link rel="stylesheet" href="id.css">
+    <link rel="stylesheet" href="nombres.css">
+</head>
+<body>
+    <header id="cabecera">
+        <h1 class="titulo">Bienvenido a la Pagina de Experiencias</h1>
+    </header>
+
+    <main>
+        <section class="seccion-texto">
+            <h2 class="subtitulo">Sobre Nosotros</h2>
+            <p>
+                Esta página está diseñada para practicar los diferentes 
+                <span class="resaltado">selectores en CSS</span>, 
+                incluyendo <b>clases</b>, <b>id</b> y <b>nombres de etiquetas</b>.
+            </p>
+        </section>
+
+        <section id="formulario-seccion">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <div class="contenedor">
+            <div id="caja1">Caja con ID</div>
+            <div class="caja">Caja con clase</div>
+            <div>Caja normal</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>2025 Página de Experiencias</p>
+    </footer>
+</body>
+</html>

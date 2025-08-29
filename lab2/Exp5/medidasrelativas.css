@@ -1,0 +1,26 @@
+/* % relativo al contenedor */
+div {
+  width: 80%;
+  background-color: lightgreen;
+  padding: 5%;
+}
+
+/* em relativo al font-size del padre */
+p {
+  font-size: 1.2em;  
+  margin: 2em;       
+  color: darkblue;
+}
+
+/* rem relativo al root (html) */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* vw y vh relativo al viewport */
+header {
+  width: 100vw;   /* todo el ancho de la pantalla */
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+

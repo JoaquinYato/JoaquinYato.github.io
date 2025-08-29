@@ -1,0 +1,81 @@
+/* SELECTORES COMBINACION */
+
+/* Descendencia */
+header p {
+  color: darkorange;
+  background: linear-gradient(300deg, #56979B, #705D51);
+  padding: 3px;
+}
+
+/* Hijo directo */
+div > p {
+  background: linear-gradient(50deg, #3CF0C3, #547069);
+  font-family: 'Times New Roman';
+}
+
+/* Hermano adyacente */
+div + div {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: magenta;
+}
+
+/* Hermanos generales */
+h2 ~ p {
+  border: 2px dashed green;
+  padding: 4px;
+}
+
+/* Selector descendiente dentro de formulario */
+form input {
+  border: 2px solid navy;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+/* Hijo directo en el formulario */
+form > label {
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* Descendencia dentro de footer */
+footer p {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+/* SELECTORES MULTIPLES */
+
+/* 1 */
+h1, h2 {
+  text-transform: uppercase;
+  color: teal;
+}
+
+/* 2 */
+p, a {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* 3 */
+input, textarea {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+}
+
+/* 4 */
+header, footer {
+  border: 5px solid rgb(13, 12, 12);
+  margin: 10px;
+  padding: 8px;
+}
+
+/* 5 */
+div, form {
+  margin: 15px;
+  padding: 10px;
+  border: 4px dotted #ccc;
+}

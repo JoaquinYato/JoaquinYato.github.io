@@ -1,0 +1,15 @@
+header {
+  background-color: lightblue;
+  color: navy;
+}
+
+h2 {
+  color: darkgreen;
+  background-color: beige;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

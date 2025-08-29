@@ -1,0 +1,31 @@
+/* Ejemplo con pixeles */
+h1 {
+  font-size: 32px;      
+  margin: 20px;
+  border: 2px solid blue;
+}
+
+/* Ejemplo con centimetros */
+p {
+  width: 10cm;
+  height: 2cm;
+  background-color: lightcoral;
+  padding: 0.2cm;
+}
+
+/* Ejemplo con milimetros */
+div.info {
+  width: 80mm;
+  height: 30mm;
+  background-color: lightblue;
+  margin-bottom: 5mm;
+}
+
+/* Ejemplo con puntos (pt) */
+label {
+  font-size: 14pt;
+  margin-left: 20pt;
+  color: darkred;
+}
+
+
